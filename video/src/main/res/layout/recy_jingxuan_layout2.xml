@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:feihu="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    xmlns:fresco="http://schemas.android.com/apk/res-auto">
+    <com.facebook.drawee.view.SimpleDraweeView
+        android:layout_marginTop="10dp"
+        android:layout_width="380dp"
+        android:layout_height="200dp"
+        android:id="@+id/sdw"
+        feihu:roundWithOverlayColor="#F00"
+        fresco:roundingBorderColor="#304D5F"
+        fresco:roundingBorderWidth="2dp"
+        fresco:failureImage="@mipmap/ic_launcher"
+        fresco:placeholderImage="@mipmap/ic_launcher" />
+    <!--<ImageView-->
+        <!--android:id="@+id/image"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="200dp" />-->
+    <TextView
+        android:id="@+id/text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="分手大师"
+        android:gravity="center_horizontal"
+        android:textSize="20sp"
+        android:textColor="#000"
+        android:layout_marginTop="10dp"
+        />
+</LinearLayout>
